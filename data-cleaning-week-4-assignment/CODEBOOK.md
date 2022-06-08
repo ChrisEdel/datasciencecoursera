@@ -34,7 +34,8 @@ features <- read.table("UCI HAR Dataset/features.txt")
 
 ```obersations <- rbind(observations_train, observations_test)
 labels <- rbind(labels_train, labels_test)
-subjects <- rbind(subjects_train, subjects_test)```
+subjects <- rbind(subjects_train, subjects_test)
+```
 
 ### Tidy data
 
